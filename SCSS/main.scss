@@ -1,0 +1,365 @@
+html {
+  background-color: #181616;
+  width: 100%;
+  color: rgba(255, 255, 255, 0.9);
+}
+body {
+  width: 100%;
+}
+a {
+  color: rgba(255, 255, 255, 0.9)
+}
+
+.wrapper{
+  width: 1440px;
+  margin: 0 auto;
+}
+.content{
+  max-width: 1200px;
+}
+/*Начало первого блока header*/
+.header__wrapper{
+  margin-bottom: 100px;
+  width: 1440px;
+  background-image: url('file:///C:/Users/Admin/Downloads/paralax_third_img.png');
+}
+.header{
+  width: 1440px;
+  height: 960px;
+}
+.navigation{
+  /* margin-top: 48px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 200px;
+}
+.navigation__logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 9px;
+}
+.navigation__links{
+  margin-top: 17px;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25.2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 528px;
+  height: 48px;
+}
+.navigation__links-classes{
+  margin-right: 40px;
+}
+.navigation__links-team{
+  margin-right: 40px;
+}
+.navigation__links-aboutUs{
+  margin-right: 40px;
+}
+.navigation__links-gallery{
+  margin-right: 40px;
+}
+.navigation__btn{
+  display: flex;
+  margin-top: 7px;
+}/*div с классом*/
+.nav-btn{
+  background-color: rgba(255, 70, 1, 1);
+  padding: 10px 44px 10px 43px;
+  font-family: 'Outfit';
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25.2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} /*Кнопка с классом внутри div*/
+.navigation__btn img{
+  display: flex;
+}
+.header__main-text{
+  color: rgba(255, 255, 255, 1); 
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+.header__main-text-flex{ /*div с картинкой и словом 'your'*/
+  display: flex;
+}
+.header__title {
+  font-family: 'Orbitron';
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 109.38px;
+  letter-spacing: 4%;
+}
+.header__title-img{
+  justify-content: start;
+  align-items: center;
+}
+.header__second-text-word{
+  padding-left: 10px;
+  font-family: 'Orbitron';
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 109.38px;
+  letter-spacing: 4%;
+}
+.header__text { /*div с текстом внутри: Inner Athlete*/
+  margin-bottom: 35px;
+
+  font-family: 'Orbitron';
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 109.38px;
+  letter-spacing: 4%;
+}
+.header__subtext {
+  font-family: 'Outfit';
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30.76px;
+  letter-spacing: 2%;
+  margin-bottom: 35px;
+}
+.header__btn button{
+  background-color: #FF4601;
+  color: #FFFFFF;
+
+}
+.header-btn {
+  padding: 10px 30px 10px 29px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25.2px;
+}
+
+/*2 блок, сразу после header*/
+.main__sections {
+  width: 1440px;
+  background-color: #1E1E1E;
+}
+.sports-activities {
+  height: 600px;
+  margin-bottom: 100px;
+}
+.sports-activities h2{
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 82.03px;
+  letter-spacing: 2%;
+  margin-bottom: 36px;
+}
+.sports-activities-images {
+  color: rgba(255, 255, 255, 0.8);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .sports-activities-images_1 {
+    margin-right: 59px;
+      h3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 61.52px;
+      }
+      p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 24px;
+      }
+    }
+    .sports-activities-images_2 {
+      margin-right: 60px;
+      h3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 54.69px;
+        letter-spacing: 2%;
+      }
+  
+    }
+    .sports-activities-images_3 {
+      margin-right: 60px;
+      h3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 54.69px;
+        letter-spacing: 2%;
+      }
+  
+    }
+    .sports-activities-images_4 {
+      h3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 54.69px;
+        letter-spacing: 2%;
+      }
+    }
+}
+.sports-lifestyle { /*Начало блока №3*/
+  border: 1px solid rgba(255, 100, 0, 1);
+  margin-bottom: 90px;
+  h2 {
+    color: rgba(255, 255, 255, 0.9);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 36px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 82.03px;
+    letter-spacing: 2%;
+  }
+  p {
+    margin-bottom: 40px;
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34.18px;
+    letter-spacing: 2%;
+  }
+
+  .sports-lifestyle-for-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 24px;
+  }
+}
+
+.main__classes {
+  background-image: linear-gradient(rgb(13, 24, 14), rgb(41, 41, 66), rgb(26, 26, 44), rgb(32, 33, 34));
+  h2 {
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 82.03px;
+    margin-bottom: 36px;
+  }
+
+  .main__classes-images {
+    display: flex;
+    justify-content: space-between;
+    .main__classes-1 {
+      // border: 0.1px solid rgba(255, 67, 0, 1);
+      margin-right: 44px;
+      margin-bottom: 25px;
+      display: flex;
+      flex-direction: column;
+        .first-li__card-1 {
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 27.34px;
+          letter-spacing: 2%;
+          margin-bottom: 17px;
+        }
+        .first-li__card-1::before {
+          content: '•';
+          padding-right: 10px;
+          color: rgba(255, 67, 0, 1);
+        }
+          .second-li__card-1 {
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 41.02px;
+            margin-bottom: 10px;
+            letter-spacing: 2%;
+
+          }
+            .third-li__card-1 {
+              font-weight: 500;
+              font-size: 16px;
+              line-height: 27.34px;
+              letter-spacing: 2%;
+              margin-bottom: 10px;
+
+            }
+              .fourth-li__card-1 {
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 27.34px;
+                margin-bottom: 10px;
+
+              }
+              .fourth-li__card-1::before {
+                content: '•';
+                padding-right: 10px;
+              }
+                .fifth-li__card-1 {
+                  font-weight: 500;
+                  font-size: 16px;
+                  line-height: 27.34px;
+                  margin-bottom: 26px;
+                }
+                .fifth-li__card-1::before {
+                  content: '•';
+                  padding-right: 10px;
+                }
+                .main__classes-button{
+                  display: flex;
+                  justify-content: space-between;
+                  .main__classes-btn-1 {
+                    background-color: rgba(255, 67, 0, 1);
+                    padding: 7px 19px 7px 24px;
+                    margin-right: 20px;
+                    margin-left: 4px;
+                    width: 140px;
+                    transform: skew(-8deg);
+                      a {
+                        font-weight: 500;
+                        font-size: 18px;
+                        line-height: 30.76px;
+                        letter-spacing: 2%;
+                      }
+                  }
+                  .main__classes-btn-2 {
+                    background-color: transparent;
+                    border: 1px solid #fff;
+                    padding: 7px 19px 7px 24px;
+                    transform: skew(-8deg); /*повернул кнопку с текстом под карточкой*/
+                    margin-right: 4px;
+                    width: 240px;
+                    a {
+                      font-weight: 500;
+                      font-size: 18px;
+                      line-height: 30.76px;
+                      letter-spacing: 2%;
+                    }
+                  }
+                }
+    }
+    .main__classes-2 {
+      margin-right: 44px;
+
+    }
+    .main__classes-3 {
+
+    }
+  }
+}

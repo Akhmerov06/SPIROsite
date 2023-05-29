@@ -1,0 +1,184 @@
+/* html {
+  background-color: #181616;
+  width: 100%;
+  color: rgba(255, 255, 255, 0.9);
+}
+body {
+  width: 100%;
+}
+a {
+  color: rgba(255, 255, 255, 0.9)
+}
+
+.wrapper{
+  width: 1440px;
+  margin: 0 auto;
+}
+.content{
+  max-width: 1200px;
+}
+/*Начало первого блока header*/
+/*
+.header__wrapper{
+  margin-bottom: 100px;
+  width: 1440px;
+  background-image: url('file:///C:/Users/Admin/Downloads/paralax_third_img.png');
+}
+.header{
+  width: 1440px;
+  height: 960px;
+}
+.navigation{
+  /* margin-top: 48px; */
+  /*
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 200px;
+}
+.navigation__logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 9px;
+}
+.navigation__links{
+  margin-top: 17px;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25.2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 528px;
+  height: 48px;
+}
+.navigation__links-classes{
+  margin-right: 40px;
+}
+.navigation__links-team{
+  margin-right: 40px;
+}
+.navigation__links-aboutUs{
+  margin-right: 40px;
+}
+.navigation__links-gallery{
+  margin-right: 40px;
+}
+.navigation__btn{
+  display: flex;
+  margin-top: 7px;
+}/*div с классом*/
+/*
+.nav-btn{
+  background-color: rgba(255, 70, 1, 1);
+  padding: 10px 44px 10px 43px;
+  font-family: 'Outfit';
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25.2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} /*Кнопка с классом внутри div*/
+/*
+.navigation__btn img{
+  display: flex;
+}
+.header__main-text{
+  color: rgba(255, 255, 255, 1); 
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+.header__main-text-flex{ /*div с картинкой и словом 'your'*/
+  /*
+  display: flex;
+}
+.header__title {
+  font-family: 'Orbitron';
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 109.38px;
+  letter-spacing: 4%;
+}
+.header__title-img{
+  justify-content: start;
+  align-items: center;
+}
+.header__second-text-word{
+  padding-left: 10px;
+  font-family: 'Orbitron';
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 109.38px;
+  letter-spacing: 4%;
+}
+.header__text { /*div с текстом внутри: Inner Athlete*/
+  /*
+  margin-bottom: 35px;
+
+  font-family: 'Orbitron';
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 109.38px;
+  letter-spacing: 4%;
+}
+.header__subtext {
+  font-family: 'Outfit';
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30.76px;
+  letter-spacing: 2%;
+  margin-bottom: 35px;
+}
+.header__btn {
+}
+.header__btn button{
+  background-color: #FF4601;
+  color: #FFFFFF;
+
+}
+.header-btn {
+  padding: 10px 30px 10px 29px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25.2px;
+}
+
+/*2 блок, сразу после header*/
+/*
+.main__sections {
+  width: 1440px;
+  background-color: #1E1E1E;
+}
+.sports-activities {
+  height: 519px;
+}
+.sports-activities h2{
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 82.03px;
+  letter-spacing: 2%;
+  margin-bottom: 36px;
+}
+.sports-activities-images{
+  display: flex;
+  justify-content: space-between;
+}
+.sports-activities-img_1 {
+  margin-right: 59px;
+}
+.sports-activities-img_2 {
+  margin-right: 60px;
+}
+.sports-activities-img_3 {
+  margin-right: 60px;
+}
+.sports-activities-img-description h3 {
+  display: flex;
+  justify-content: center;
+} */
