@@ -2,11 +2,15 @@
 html {
   background-color: #181616;
   width: 100%;
-  color: rgba(255, 255, 255, 0.9);
+  height: 100%;
+  color: #FFFFFF;
 }
 
 body {
+  background-color: rgb(30, 30, 30);
+  font-family: "Outfit", sans-serif;
   width: 100%;
+  height: 100%;
 }
 
 a {
@@ -161,7 +165,7 @@ a {
 }
 
 /*2 блок, сразу после header*/
-.main__sections {
+.main__sections-all {
   width: 1440px;
   background-color: #1E1E1E;
 }
@@ -271,8 +275,9 @@ a {
   margin-bottom: 24px;
 }
 
-.main__classes {
-  background-image: linear-gradient(rgb(13, 24, 14), rgb(41, 41, 66), rgb(26, 26, 44), rgb(32, 33, 34));
+.main__classes { /*Четвертый блок начало*/
+  background-image: linear-gradient(rgb(9, 12, 9), rgb(41, 41, 66), rgb(26, 26, 44), rgb(15, 16, 17));
+  margin-bottom: 50px;
 }
 .main__classes h2 {
   display: flex;
@@ -281,6 +286,7 @@ a {
   font-size: 48px;
   line-height: 82.03px;
   margin-bottom: 36px;
+  letter-spacing: 4px;
 }
 .main__classes .main__classes-images {
   display: flex;
@@ -338,11 +344,11 @@ a {
   content: "•";
   padding-right: 10px;
 }
-.main__classes .main__classes-images .main__classes-1 .main__classes-button {
+.main__classes .main__classes-images .main__classes-1 .main__classes-button-1 {
   display: flex;
   justify-content: space-between;
 }
-.main__classes .main__classes-images .main__classes-1 .main__classes-button .main__classes-btn-1 {
+.main__classes .main__classes-images .main__classes-1 .main__classes-button-1 .main__classes-btn-1 {
   background-color: rgb(255, 67, 0);
   padding: 7px 19px 7px 24px;
   margin-right: 20px;
@@ -350,13 +356,13 @@ a {
   width: 140px;
   transform: skew(-8deg);
 }
-.main__classes .main__classes-images .main__classes-1 .main__classes-button .main__classes-btn-1 a {
+.main__classes .main__classes-images .main__classes-1 .main__classes-button-1 .main__classes-btn-1 a {
   font-weight: 500;
   font-size: 18px;
   line-height: 30.76px;
   letter-spacing: 2%;
 }
-.main__classes .main__classes-images .main__classes-1 .main__classes-button .main__classes-btn-2 {
+.main__classes .main__classes-images .main__classes-1 .main__classes-button-1 .main__classes-btn-2 {
   background-color: transparent;
   border: 1px solid #fff;
   padding: 7px 19px 7px 24px;
@@ -364,12 +370,422 @@ a {
   margin-right: 4px;
   width: 240px;
 }
-.main__classes .main__classes-images .main__classes-1 .main__classes-button .main__classes-btn-2 a {
+.main__classes .main__classes-images .main__classes-1 .main__classes-button-1 .main__classes-btn-2 a {
   font-weight: 500;
   font-size: 18px;
   line-height: 30.76px;
   letter-spacing: 2%;
 }
-.main__classes .main__classes-images .main__classes-2 {
+.main__classes .main__classes-images .main__classes-2 { /*div вторая карточка*/
   margin-right: 44px;
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+}
+.main__classes .main__classes-images .main__classes-2 .first-li__card-2 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 27.34px;
+  letter-spacing: 2%;
+  margin-bottom: 17px;
+}
+.main__classes .main__classes-images .main__classes-2 .first-li__card-2::before {
+  content: "•";
+  padding-right: 10px;
+  color: rgb(255, 67, 0);
+}
+.main__classes .main__classes-images .main__classes-2 .second-li__card-2 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 41.02px;
+  margin-bottom: 10px;
+  letter-spacing: 2%;
+}
+.main__classes .main__classes-images .main__classes-2 .third-li__card-2 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 27.34px;
+  letter-spacing: 2%;
+  margin-bottom: 10px;
+}
+.main__classes .main__classes-images .main__classes-2 .fourth-li__card-2 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 27.34px;
+  margin-bottom: 10px;
+}
+.main__classes .main__classes-images .main__classes-2 .fourth-li__card-2::before {
+  content: "•";
+  padding-right: 10px;
+}
+.main__classes .main__classes-images .main__classes-2 .fifth-li__card-2 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 27.34px;
+  margin-bottom: 26px;
+}
+.main__classes .main__classes-images .main__classes-2 .fifth-li__card-2::before {
+  content: "•";
+  padding-right: 10px;
+}
+.main__classes .main__classes-images .main__classes-2 .main__classes-button-2 {
+  display: flex;
+  justify-content: space-between;
+}
+.main__classes .main__classes-images .main__classes-2 .main__classes-btn-1 {
+  background-color: rgb(255, 67, 0);
+  padding: 7px 19px 7px 24px;
+  margin-right: 20px;
+  margin-left: 4px;
+  width: 140px;
+  transform: skew(-8deg);
+}
+.main__classes .main__classes-images .main__classes-2 .main__classes-btn-1 a {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30.76px;
+  letter-spacing: 2%;
+}
+.main__classes .main__classes-images .main__classes-2 .main__classes-btn-2 {
+  background-color: transparent;
+  border: 1px solid #fff;
+  padding: 7px 19px 7px 24px;
+  transform: skew(-8deg); /*повернул кнопку с текстом под карточкой*/
+  margin-right: 4px;
+  width: 240px;
+}
+.main__classes .main__classes-images .main__classes-2 .main__classes-btn-2 a {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30.76px;
+  letter-spacing: 2%;
+}
+.main__classes .main__classes-images .main__classes-3 { /*div Третья карточка*/
+  margin-right: 44px;
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+}
+.main__classes .main__classes-images .main__classes-3 .first-li__card-3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 27.34px;
+  letter-spacing: 2%;
+  margin-bottom: 17px;
+}
+.main__classes .main__classes-images .main__classes-3 .first-li__card-3::before {
+  content: "•";
+  padding-right: 10px;
+  color: rgb(255, 67, 0);
+}
+.main__classes .main__classes-images .main__classes-3 .second-li__card-3 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 41.02px;
+  margin-bottom: 10px;
+  letter-spacing: 2%;
+}
+.main__classes .main__classes-images .main__classes-3 .third-li__card-3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 27.34px;
+  letter-spacing: 2%;
+  margin-bottom: 10px;
+}
+.main__classes .main__classes-images .main__classes-3 .fourth-li__card-3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 27.34px;
+  margin-bottom: 10px;
+}
+.main__classes .main__classes-images .main__classes-3 .fourth-li__card-3::before {
+  content: "•";
+  padding-right: 10px;
+}
+.main__classes .main__classes-images .main__classes-3 .fifth-li__card-3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 27.34px;
+  margin-bottom: 26px;
+}
+.main__classes .main__classes-images .main__classes-3 .fifth-li__card-3::before {
+  content: "•";
+  padding-right: 10px;
+}
+.main__classes .main__classes-images .main__classes-3 .main__classes-button-3 {
+  display: flex;
+  justify-content: space-between;
+}
+.main__classes .main__classes-images .main__classes-3 .main__classes-button-3 .main__classes-btn-1 {
+  background-color: rgb(255, 67, 0);
+  padding: 7px 19px 7px 24px;
+  margin-right: 20px;
+  margin-left: 4px;
+  width: 140px;
+  transform: skew(-8deg);
+}
+.main__classes .main__classes-images .main__classes-3 .main__classes-button-3 .main__classes-btn-1 a {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30.76px;
+  letter-spacing: 2%;
+}
+.main__classes .main__classes-images .main__classes-3 .main__classes-button-3 .main__classes-btn-2 {
+  background-color: transparent;
+  border: 1px solid #fff;
+  padding: 7px 19px 7px 24px;
+  transform: skew(-8deg); /*повернул кнопку с текстом под карточкой*/
+  margin-right: 4px;
+  width: 240px;
+}
+.main__classes .main__classes-images .main__classes-3 .main__classes-button-3 .main__classes-btn-2 a {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30.76px;
+  letter-spacing: 2%;
+}
+.main__classes .button__under-main-section { /*div секция с кнопкой*/
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+.main__classes .under-main-section-btn { /*Кнока под тремя карточками*/
+  margin-bottom: 116px;
+  background-color: #FF4601;
+  padding: 7px 19px 7px 24px;
+  margin-right: 20px;
+  margin-left: 4px;
+  width: 185px;
+  height: 45px;
+  transform: skew(-8deg);
+}
+.main__classes .under-main-section-btn a {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30.76px;
+  letter-spacing: 2%;
+}
+
+.main__instructors__block { /*div-блок про инструкторов*/
+  background-color: #1E1E1E;
+}
+.main__instructors__block .main__instructors-title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 36px;
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 82.03px;
+  letter-spacing: 4px;
+}
+.main__instructors__block .main__instructors {
+  color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+}
+.main__instructors__block .main__instructors .main__instructor_1 .main__instructor_1-img {
+  margin-bottom: 20px;
+}
+.main__instructors__block .main__instructors .main__instructor_1 h2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 41.02px;
+  letter-spacing: 2%;
+}
+.main__instructors__block .main__instructors .main__instructor_1 h3 {
+  display: flex;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27.34px;
+  letter-spacing: 2%;
+}
+.main__instructors__block .main__instructors .main__instructor_2 .main__instructor_2-img {
+  margin-bottom: 20px;
+}
+.main__instructors__block .main__instructors .main__instructor_2 h2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 41.02px;
+  letter-spacing: 2%;
+}
+.main__instructors__block .main__instructors .main__instructor_2 h3 {
+  display: flex;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27.34px;
+  letter-spacing: 2%;
+}
+.main__instructors__block .main__instructors .main__instructor_3 .main__instructor_3-img {
+  margin-bottom: 20px;
+}
+.main__instructors__block .main__instructors .main__instructor_3 h2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 41.02px;
+  letter-spacing: 2%;
+}
+.main__instructors__block .main__instructors .main__instructor_3 h3 {
+  display: flex;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27.34px;
+  letter-spacing: 2%;
+}
+.main__instructors__block .main__instructors .main__instructor_4 {
+  margin-bottom: 100px;
+}
+.main__instructors__block .main__instructors .main__instructor_4 .main__instructor_4-img {
+  margin-bottom: 20px;
+}
+.main__instructors__block .main__instructors .main__instructor_4 h2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 41.02px;
+  letter-spacing: 2%;
+}
+.main__instructors__block .main__instructors .main__instructor_4 h3 {
+  display: flex;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27.34px;
+  letter-spacing: 2%;
+}
+
+.download__app {
+  display: flex;
+  justify-content: space-between;
+  color: #FFFFFF;
+  background-color: rgb(255, 67, 0);
+}
+.download__app .main__section-left {
+  display: flex;
+  flex-direction: column;
+}
+.download__app .main__section-left .download__app__main-text {
+  display: inline-block;
+  margin-right: 40px;
+  margin-bottom: 30px;
+  margin-top: 80px;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 82.03px;
+  letter-spacing: 2%;
+}
+.download__app .main__section-left .download__app__subtext {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 34.18px;
+  letter-spacing: 2%;
+  margin: 30px 230px 60px 0px;
+}
+.download__app .main__section-left .download__app-img-2 {
+  display: flex;
+}
+.download__app .main__section-right {
+  display: flex;
+  flex-direction: column;
+}
+.download__app .download__app-img-2 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.section-video {
+  margin-top: 100px;
+  margin-bottom: 51px;
+  display: flex;
+  justify-content: center;
+}
+
+.client-feedback {
+  color: rgb(255, 255, 255);
+  background-image: linear-gradient(rgb(9, 12, 9), rgb(41, 41, 83), rgb(39, 66, 43), rgb(26, 48, 32), rgb(25, 26, 43), rgb(10, 15, 12));
+}
+.client-feedback h2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 84px;
+}
+.client-feedback .client-feedback-img {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.client-feedback .client-feedback-img-down {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.client-feedback .client-feedback-img-down .feedback-img-down {
+  margin-bottom: 50px;
+}
+
+.section__questions {
+  height: 500px;
+}
+.section__questions h2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 51px;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 72px;
+}
+.section__questions .tab input, .section__questions .tab-content {
+  display: none;
+}
+.section__questions .tab {
+  border: 1px solid #e9eaec; /* Параметры рамки */
+  border-radius: 3px; /* Скругляем уголки */
+  color: #848994; /* Цвет текста */
+  margin-bottom: 25px; /* Расстояние между пунктами */
+  color: rgb(240, 235, 235);
+}
+.section__questions .tab-title {
+  padding: 10px; /* Поля вокруг текста */
+  display: block; /* Блочный элемент */
+  font-weight: bold; /* Жирное начертание */
+  cursor: pointer; /* Вид курсора */
+}
+.section__questions .tab-title::after {
+  content: "+"; /* Выводим плюс */
+  float: right; /* Размещаем по правому краю */
+}
+.section__questions .tab-content {
+  padding: 10px 20px; /* Поля вокруг текста */
+}
+.section__questions .tab :checked + .tab-title { /*::checked - это Псевдокласс, который активируется, когда пользователь отмечает чекбокс или выбирает одну из радиокнопок.*/
+  background: linear-gradient(90deg, #FF4300 -6.33%, #FF6400 103.92%); /* Цвет фона */
+  border-radius: 3px 3px 0 0; /* Скругляем уголки */
+  color: #fff; /* Цвет текста */
+}
+.section__questions .tab :checked + .tab-title::after {
+  content: "−"; /* Выводим минус */
+}
+.section__questions .tab :checked ~ .tab-content { /* ~ - Эта комбинация сестринских (сиблинговых) элементов похожа на X + Y, но она   менее строгая. Этот селектор более общий. */
+  display: block; /* Показываем содержимое */
+  color: rgb(233, 224, 224);
+  transform: skew(-10deg);
+  letter-spacing: 5%;
 }/*# sourceMappingURL=main.css.map */

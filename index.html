@@ -9,7 +9,7 @@
   <title>SPYRO</title>
 </head>
 <body>
-   <div class="wrapper">
+   <div class="wrapper"> <!--Мб следующим добавить контейнер, чтобы можно было фон делать длиннее контента-->
       <div class="content"> <!-- Чтоб текст не выходил за этот блок-->
          <div class="header__wrapper">
             <div class="header"> <!--Первый блок на макете-->
@@ -47,13 +47,13 @@
             </div>
          </div>
 
-         <div class="main__sections">
+         <div class="main__sections-all"> <!--Весь основной контент до footer-->
             <div class="main__section sports-activities">
                <h2>Find what moves you</h2>
             <div class="main__section sports-activities-images"><!--Нужно создать 4 div под каждым - img + текст-->
                <div class="main__section sports-activities-images_1">
                   <img src="img/main_img/image 9.png" alt="main_first-image">
-                  <h3>GIM</h3>
+                  <h3>GYM</h3>
                   <p>Expect a heart-pumping workout that will leave you <br>
                   feeling energized and accomplished. Our supportive <br>
                   of like-minded individuals.</p>
@@ -71,7 +71,7 @@
                   <h3>Martial Arts</h3>
                </div>
             </div>
-         </div> <!-- Конец бока с 4 картинками-->
+         </div> <!-- Конец бока с четырьмя картинками-->
 
          <div class="main__section sports-lifestyle"> 
             <h2>Fit for your lifestyle</h2>
@@ -96,33 +96,189 @@
                      <li class="fourth-li__card-1">No. of Classes: 30</li>
                      <li class="fifth-li__card-1">Difficulty: Beginner</li>
                   </ul>
-                  <div class="main__classes-button"> <!--Изменить границы кнопки(узнать, можно ли повернуть?)-->
+                  <div class="main__classes-button-1"> <!--Изменить границы кнопки(узнать, можно ли повернуть?)-->
                      <button class="main__classes-btn-1">
-                        <a href="#">Learn more</a>
+                        <a class="main__classes-link-1" href="#">Learn more</a>
                      </button>
                      <button class="main__classes-btn-2">
-                        <a href="#">Start a free trail</a>
+                        <a class="main__classes-link-2" href="#">Start a free trail</a>
                      </button>
                   </div>
                </div>
                <div class="main__classes-2"> <!--Вторая карточка-->
                    <img class="main__classes-image-2" src="img/main_img/Rectangle 13_2.png" alt="main__classes-image-2">
                    <ul>
-                     <li></li>
-                     <li></li>
-                     <li></li>
-                     <li></li>
-                     <li></li>
+                     <li class="first-li__card-2">Fitness</li>
+                     <li class="second-li__card-2">Total Body Burnout</li>
+                     <li class="third-li__card-2">Instructor: Wade Warren</li>
+                     <li class="fourth-li__card-2">No. of Classes: 45</li>
+                     <li class="fifth-li__card-2">Difficulty: Medium</li>
                    </ul>
+                   <div class="main__classes-button-2">
+                     <button class="main__classes-btn-1">
+                        <a class="main__classes-link-1" href="#">Learn more</a>
+                     </button>
+                     <button class="main__classes-btn-2">
+                        <a class="main__classes-link-2" href="#">Start a free trail</a>
+                     </button>
+                   </div>
                </div>
-               <div class="main__classes-3">               
+               <div class="main__classes-3"> <!--Третья карточка-->      
                   <img class="main__classes-image-3" src="img/main_img/Rectangle 13_3.png" alt="main__classes-image-3">
+                  <ul>
+                     <li class="first-li__card-3">Yoga</li>
+                     <li class="second-li__card-3">Bootcamp Challenge</li>
+                     <li class="third-li__card-3">Instructor: Robert Fox</li>
+                     <li class="fourth-li__card-3">No. of Classes: 52</li>
+                     <li class="fifth-li__card-3">Difficulty: Hard</li>
+                   </ul>
+                   <div class="main__classes-button-3">
+                     <button class="main__classes-btn-1">
+                        <a class="main__classes-link-1" href="#">Learn more</a>
+                     </button>
+                     <button class="main__classes-btn-2">
+                        <a class="main__classes-link-2" href="#">Start a free trail</a>
+                     </button>
+                   </div>
+               </div>
+            </div>
+            <div class="main__section button__under-main-section"> <!--Кнопка под тремя карточками-->
+               <button class="main__section under-main-section-btn">
+                  <a class="" href="">See all</a>
+               </button>
+            </div>
+         </div>
+
+         <div class="main__section main__instructors__block"> <!--Начало 5 блока-->
+            <h2 class="main__section main__instructors-title">Instructors</h2> <!--Блок про инструкторов-->
+            <div class="main__section main__instructors">
+               <div class="main__section main__instructor_1"> <!--Первая картинка инструктора-->
+                  <img class="main__instructor_1-img" src="img/main_img/Rectangle 17.png" alt="instructor-img-1">
+                  <h2>Jacob Jones</h2>
+                  <h3>Gym trainer</h3>
+               </div>
+               <div class="main__section main__instructor_2"> <!--Вторая картинка инструктора-->
+                  <img class="main__instructor_2-img" src="img/main_img/Rectangle 18.png" alt="instructor-img-2">
+                  <h2>Leslie Alexander</h2>
+                  <h3>Gym trainer</h3>
+               </div>
+               <div class="main__section main__instructor_3"> <!--Третья картинка инструктора-->
+                  <img class="main__instructor_3-img" src="img/main_img/Rectangle 19.png" alt="instructor-img-3">
+                  <h2>Cameron Williamson</h2>
+                  <h3>Gym trainer</h3>
+               </div>
+               <div class="main__section main__instructor_4"> <!--Четвертая картинка инструктора-->
+                  <img class="main__instructor_4-img" src="img/main_img/Rectangle 20.png" alt="instructor-img-4">
+                  <h2>Jane Cooper</h2>
+                  <h3>Gym trainer</h3>
                </div>
             </div>
          </div>
 
+         <div class="main__section download__app"> <!--Секция, про скачивание приложения-->
+            <div class="main__section-left">
+               <div class="download__app__main-text">
+                  <p>Download the most loved <br>
+                  fitness app</p>
+               </div>
+               <div class="download__app__subtext">
+                  <p>Start your fitness journey with us. Join the cult!</p>
+               </div>
+               <div class="download__app-img-1">
+                  <img class="download__img-1" src="img/main_img/image 13.png" alt="download-img">
+                  <img class="download__img-2" src="img/main_img/image 14.png" alt="download-img">
+               </div>
+            </div>
+            <div class="main__section-right">
+               <div class="download__app-img-2">
+                  <img class="download__img-3" src="img/main_img/Group 11.png" alt="photo-right">
+               </div>
+            </div>
+         </div>
+         
+         <div class="main__section section-video"> <!--Секция с видеороликом-->
+            <video controls="" width="1200px">
+               <source src="img/video/mixkit-female-kickboxer-training-with-her-coach-40259.mp4">
+            </video>
+         </div>
 
-      
+         <div class="main__section client-feedback"> <!--Секция с отзывами-->
+            <h2>Client’s Feedback</h2>
+            <div class="client-feedback-img">
+               <img src="img/main_img/Frame 359.png" alt="feedback-img">
+               <img src="img/main_img/Frame 357.png" alt="feedback-img">
+               <img src="img/main_img/Frame 358.png" alt="feedback-img">
+            </div>
+            <div class="client-feedback-img-down">
+               <img class="feedback-img-down" src="img/main_img/Frame 336.png" alt="down-feedback-img">
+            </div>
+         </div>
+
+         <div class="main__section section__questions"> <!--Реализуется через Accordion menu-->
+            <h2>Frequently Asked Question</h2>
+
+            <div class="tab">
+               <input type="checkbox" id="tab1" name="tab-group">
+               <label for="tab1" class="tab-title">What are your focus areas as a UI/UX agency?</label> 
+               <section class="tab-content"> 
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting 
+                  industry. Lorem Ipsum has been the industry's standard dummy text 
+                  ever since the 1500s, when an unknown printer took a galley of type 
+                  and scrambled it to make a type specimen book. It has survived not 
+                  only five centuries, but also the leap into electronic typesetting, 
+                  remaining essentially unchanged.It was popularised in the 1960s with 
+                  the release of Letraset sheets containing Lorem Ipsum passages, and 
+                  more recently with desktop
+               </p>
+               </section> 
+              </div>
+              <div class="tab">
+               <input type="checkbox" id="tab2" name="tab-group">
+               <label for="tab2" class="tab-title">Why is UI/UX design important for your business growth?</label> 
+               <section class="tab-content"> 
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, 
+                  voluptates ad recusandae dolore enim laboriosam? Commodi officiis 
+                  maxime vitae corporis. Ratione eligendi sequi quos quod possimus non 
+                  corrupti illo, quibusdam iure dignissimos unde sunt voluptatem aliquid 
+                  eius obcaecati laboriosam quia dolorum, enim nulla maxime ducimus nihil 
+                  temporibus asperiores. Adipisci, recusandae. Magni accusantium unde, 
+                  ratione sequi animi alias dolore! Ullam sed magnam quo in ratione, sunt 
+                  odio, vel officia a consequuntur quae aut cupiditate obcaecati ab quasi 
+                  minima, vitae pariatur necessitatibus.
+               </section> 
+              </div> 
+              <div class="tab">
+               <input type="checkbox" id="tab3" name="tab-group">
+               <label for="tab3" class="tab-title">Can your UX design agency help us with web design?</label>
+               <section class="tab-content">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  Quod ex quae suscipit sed? Quod illum aliquid earum. Unde 
+                  atque quae sint voluptas, minima at nesciunt magni harum odio 
+                  nemo! Neque laborum provident minus nulla perspiciatis veniam 
+                  voluptatem, impedit magnam, tempora esse ipsam dolor omnis 
+                  officiis excepturi recusandae magni, modi atque minima fuga 
+                  eveniet? Ea, exercitationem at! Labore rem enim aperiam autem 
+                  dignissimos inventore ipsum vel! Blanditiis illo in quae ab.
+               </section>
+              </div>
+              <div class="tab">
+               <input type="checkbox" id="tab4" name="tab-group">
+               <label for="tab4" class="tab-title">How much does a UI/UX design project cost?</label>
+               <section class="tab-content">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  Quod ex quae suscipit sed? Quod illum aliquid earum. Unde 
+                  atque quae sint voluptas, minima at nesciunt magni harum odio 
+                  nemo! Neque laborum provident minus nulla perspiciatis veniam 
+                  voluptatem, impedit magnam, tempora esse ipsam dolor omnis 
+                  officiis excepturi recusandae magni, modi atque minima fuga 
+                  eveniet? Ea, exercitationem at! Labore rem enim aperiam autem 
+                  dignissimos inventore ipsum vel! Blanditiis illo in quae ab.
+               </section>
+              </div>
+
+         </div>
+
+
       </div>
    </div>
 <script src="JS/app.js"></script>
