@@ -30,12 +30,12 @@ a {
 
 /*Начало первого блока header*/
 .header__wrapper {
-  background-image: url("file:///C:/Users/Admin/Downloads/paralax_third_img.png");
   margin-bottom: 100px;
   width: 1440px;
 }
 
 .header {
+  background: linear-gradient(rgba(44, 44, 44, 0.747), rgb(35, 36, 53), rgb(37, 39, 59), rgba(44, 44, 44, 0.747));
   width: 1440px;
   height: 960px;
 }
