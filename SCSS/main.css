@@ -30,9 +30,9 @@ a {
 
 /*Начало первого блока header*/
 .header__wrapper {
+  background-image: url("file:///C:/Users/Admin/Downloads/paralax_third_img.png");
   margin-bottom: 100px;
   width: 1440px;
-  background-image: url("file:///C:/Users/Admin/Downloads/paralax_third_img.png");
 }
 
 .header {
