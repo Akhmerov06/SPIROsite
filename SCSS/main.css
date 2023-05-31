@@ -679,6 +679,7 @@ a {
   background-color: rgb(255, 67, 0);
 }
 .download__app .main__section-left {
+  margin-left: 70px;
   display: flex;
   flex-direction: column;
 }
@@ -705,6 +706,9 @@ a {
 .download__app .main__section-right {
   display: flex;
   flex-direction: column;
+}
+.download__app .main__section-right .download__img-3 {
+  margin-right: 70px;
 }
 .download__app .download__app-img-2 {
   display: flex;
@@ -800,7 +804,6 @@ a {
 
 .signage-under-questions { /*Секция под блоком вопрос-ответ*/ }
 .signage-under-questions .all-signage-under-questions {
-  transform: skew(-5deg);
   display: flex;
   background-color: rgb(255, 67, 0);
 }

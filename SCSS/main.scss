@@ -693,6 +693,7 @@ a {
   color: #FFFFFF;
   background-color: rgba(255, 67, 0, 1);
   .main__section-left {
+    margin-left: 70px;
     display: flex;
     flex-direction: column;
     .download__app__main-text {
@@ -715,12 +716,15 @@ a {
       margin: 30px 230px 60px 0px;
     }
     .download__app-img-2 {
-      display: flex; 
+      display: flex;
     }
   }
   .main__section-right {
     display: flex;
     flex-direction: column;
+      .download__img-3 {
+        margin-right: 70px;
+      }
   }
   .download__app-img-2 {
     display: flex;
@@ -827,8 +831,6 @@ a {
 
 .signage-under-questions { /*Секция под блоком вопрос-ответ*/
   .all-signage-under-questions {
-    transform: skew(-5deg);
-
     display: flex;
     background-color: rgba(255, 67, 0, 1);
     .text-signage-under-questions {
